@@ -8,6 +8,9 @@ app.get("/api/v1", (req, res) => {
     const api = [{
         name: "Statut",
         value: config.statut,
+    },{
+        name: "Version",
+        value: config.version,
     }]
     res.json(api);
 });
