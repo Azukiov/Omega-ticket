@@ -1,0 +1,28 @@
+{
+  "name": "omega-ticket",
+  "version": "1.0.0",
+  "description": "Bot Ticket Customisable",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsAzukio/Omega-ticket.git"
+  },
+  "author": "ItsAzukio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItsAzukio/Omega-ticket/issues"
+  },
+  "homepage": "https://github.com/ItsAzukio/Omega-ticket#readme",
+  "dependencies": {
+    "@discordjs/rest": "^1.5.0",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "lodash.uniqwith": "^4.5.0",
+    "moment": "^2.29.4"
+  }
+}
