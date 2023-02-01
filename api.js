@@ -2,12 +2,12 @@ const express = require('express');
 const app = express();
 const port = 2000;
 
-const configAPI = require("./config/config-api.json");
+const config = require("./config/config.json");
 
 app.get("/api/v1", (req, res) => {
     const api = [{
         name: "Statut",
-        value: configAPI.statut,
+        value: config.statut,
     }]
     res.json(api);
 });
